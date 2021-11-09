@@ -11,6 +11,7 @@ body{
 img{
     display: block;
     max-width: 100%;
+   
 }
 
 .container{
@@ -24,7 +25,7 @@ img{
     width: 90%;
     display: flex;
     justify-content: space-between;
-    max-width: 1700px;
+    max-width: 1790px;
     top: 28px;
     left: 56px;
 }
@@ -49,13 +50,15 @@ header a{
 }
 
 .main{
-    height: 785px;
+    padding-top: 4rem;
+    height: 702.984px;
     background: url("../img/bg.jpg") center;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     position: relative;
+    box-sizing: border-box;
     
 }
 
@@ -63,7 +66,6 @@ header a{
     z-index: 1;
     display: grid;
     justify-items: center;
-    margin-bottom: 40px;
 }
 
 .main h1{
@@ -83,7 +85,7 @@ main p{
     max-width: none;
     padding-bottom: 20px;
     font-size: 1.2rem;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .form-cta{
@@ -102,7 +104,8 @@ main p{
     outline: none;
     border: none;
     color:white;
-    font-size: 30px;
+    font-size: 25px;
+    cursor: pointer;
 }
 .form-cta button::after{
     content: '';
@@ -130,7 +133,8 @@ main p{
 
 .section{
     background: black;
-    padding: 4rem 0;
+    padding: 3rem 0;
+    border-top: 8px solid #222;
 }
 section h1{
   font-size: 50px;
@@ -159,6 +163,38 @@ section p{
 .video-tv{
     position: absolute;
     width: 400px;
-    top: 90px;
+    top: 70px;
+    left: 68px;
+}
+
+.download .grid > div:first-child{
+    order: 2;
+}
+
+.download .img-tv{
+    order: 1;
+}
+
+.device-pile .video-tv{
+    width: 301px;
+    top: 36px;
     left: 90px;
+}
+.footer .form-cta{
+    margin-top: 0;
+}
+
+.footer{
+    padding: 4rem 0 2rem 0;
+    border-top: 8px solid #222;
+    background: black;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+}
+
+.footer p{
+    margin-top: 2rem;
+    color:#757575 ;
+    font-size: 12px;
 }
