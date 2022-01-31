@@ -1,6 +1,9 @@
 # clone_netflix
 
 
+<p aling="center">
+    <img width="720px" src="assets/netflix.gif">
+</p>
 
 <p aling="center">
     <img width="720px" src="assets/Screenshot_1.png">
@@ -17,11 +20,6 @@
 <p aling="center">
     <img width="720px" src="assets/Screenshot_4.png">
 </p>
-
-<p aling="center">
-    <img width="720px" src="assets/netlix.gif">
-</p>
-
 
 ## Description
 
