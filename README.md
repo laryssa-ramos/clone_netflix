@@ -23,4 +23,4 @@
 
 ## Description
 
- CLone da página inicial da Netflix
+ Clone da página inicial da Netflix
