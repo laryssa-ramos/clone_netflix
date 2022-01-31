@@ -18,9 +18,10 @@
     <img width="720px" src="assets/Screenshot_4.png">
 </p>
 
-<p> 
-    <video src="assets/netflix.mp4"> 
+<p aling="center">
+    <img width="720px" src="assets/netlix.gif">
 </p>
+
 
 ## Description
 
